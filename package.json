@@ -1,27 +1,13 @@
 {
-  "name": "template-node-server",
+  "name": "${PROJECT_NAME}",
   "version": "1.0.0",
-  "description": "A node server template",
+  "description": "${PROJECT_DESCRIPTION}",
   "main": "src/index.js",
   "scripts": {
     "start": "set DEBUG=*,-babel && npm run build && node dist/index.js",
     "build": "babel src -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sky0014/template-node-server.git"
-  },
-  "keywords": [
-    "node",
-    "server",
-    "template"
-  ],
-  "author": "sky0014",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sky0014/template-node-server/issues"
-  },
-  "homepage": "https://github.com/sky0014/template-node-server#readme",
+  "author": "${AUTHOR}",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",

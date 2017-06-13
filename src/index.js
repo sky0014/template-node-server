@@ -1,1 +1,1 @@
-console.log("node server template");
+console.log("${PROJECT_NAME}");

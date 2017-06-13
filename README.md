@@ -1,2 +1,2 @@
-# template-node-server
-A node-server Template
+# ${PROJECT_NAME}
+${PROJECT_DESCRIPTION}
